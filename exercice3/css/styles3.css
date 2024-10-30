@@ -3,26 +3,35 @@ body{
 }
 .conteneur{
     display: grid;
+    grid-template: repeat(4 1fr / 5 1fr) ;
     grid-template-areas: 
-    "h h h"
-    "n n n"
-    "s m m"
-    "s m m"
-    "f f f";
+    "h h h h"
+    "n n n n"
+    "s s m m"
+    "s s m m"
+    "f f f f";
+    margin: auto;
 }
 #h{
     grid-area: "h";
     text-align: center;
+    background-color: aqua;
+    width: 100%;
 }
 #h1{
     grid-area: "m";
+    background-color: aqua;
+    width: 75%;
 }
 #aside{
     grid-area: "s";
+    background-color: aqua;
 }
 #nav{
     grid-area: "n";
+    background-color: aqua;
 }
 #footer{
     grid-area: "f";
+    background-color: aqua;
 }
