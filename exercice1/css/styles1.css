@@ -10,10 +10,6 @@
     width: 450px;
     height: 450px;
 }
-.piece{
-    width: 100%;
-    height: 100%;
-}
 #piece1{
     grid-area: p;
 }
