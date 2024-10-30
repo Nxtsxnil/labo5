@@ -2,11 +2,11 @@
 .container {
     display: grid;
     grid-template-areas:
-        "header header"
-        "nav nav"
-        "aside main"
-        "aside main"
-        "footer footer";
+        "header header header"
+        "nav nav nav"
+        "aside main main"
+        "aside main main"
+        "footer footer footer";
     margin: auto;
     max-width: 50%;
     border-collapse: collapse;
