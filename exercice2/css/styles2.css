@@ -6,6 +6,7 @@
     "f g h h"
     "f i i j";
     width: min-content;
+    grid-gap: 0px;
 }
 .piece-s{
     min-width: 0;
