@@ -7,6 +7,18 @@
     "f i i j";
     width: min-content;
 }
+.piece-s{
+    min-width: 0;
+    min-height: 0;
+}
+.piece-l{
+    min-width: 0;
+    min-height: 0;
+}
+.piece-h{
+    min-width: 0;
+    min-height: 0;
+}
 #piece01{
     grid-area: a;
 }
