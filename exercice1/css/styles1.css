@@ -7,9 +7,6 @@
     "q w e"
     "r t p"
     "u i o";
-    width: 450px;
-    height: 450px;
-    gap: 0px;
 }
 #piece1{
     grid-area: p;
