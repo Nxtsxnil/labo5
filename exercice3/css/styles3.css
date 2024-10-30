@@ -1,37 +1,49 @@
-body{
-    background-color: #3a3a3a;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-.conteneur{
+.container {
     display: grid;
-    grid-template: repeat(4 1fr / 5 1fr) ;
-    grid-template-areas: 
-    "h h h h"
-    "n n n n"
-    "s s m m"
-    "s s m m"
-    "f f f f";
-    margin: auto;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+    background-color: #aef;
 }
-#h{
-    grid-area: "h";
+#h {
+    grid-area: header;
+    background-color: #aaf;
+    padding: 20px;
     text-align: center;
-    background-color: aqua;
-    width: 100%;
 }
-#h1{
-    grid-area: "m";
-    background-color: aqua;
-    width: 75%;
+#nav {
+    grid-area: nav;
+    background-color: #aaf;
+    padding: 20px;
+    text-align: center;
 }
-#aside{
-    grid-area: "s";
-    background-color: aqua;
+#aside {
+    grid-area: aside;
+    background-color: #aaf;
+    padding: 20px;
+    text-align: center;
 }
-#nav{
-    grid-area: "n";
-    background-color: aqua;
+#main {
+    grid-area: main;
+    background-color: #aaf;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
 }
-#footer{
-    grid-area: "f";
-    background-color: aqua;
+#footer {
+    grid-area: footer;
+    background-color: #aaf;
+    padding: 20px;
+    text-align: center;
 }
