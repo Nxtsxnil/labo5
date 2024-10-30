@@ -1,8 +1,8 @@
 /*Je n'ai pas necessairement le bon emplacement de fichers, malheureusement, c'est la seule facon que jai trouvé pour avoir les images qui fonctionnent sans changer le fichier html*/
 .puzzle{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
     grid-template-areas: 
     "q w e"
     "r t p"
