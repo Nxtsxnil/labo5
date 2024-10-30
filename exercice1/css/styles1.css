@@ -8,6 +8,7 @@
     "r t p"
     "u i o";
     width: 450px;
+    grid-gap: 0px;
 }
 .piece{
     min-width: 0;
