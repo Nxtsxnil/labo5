@@ -7,6 +7,7 @@
     "q w e"
     "r t p"
     "u i o";
+    width: 450px;
 }
 .piece{
     min-width: 0;
