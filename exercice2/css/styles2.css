@@ -1,0 +1,40 @@
+.puzzle{
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-areas: 
+    "a a b c"
+    "d e e c"
+    "f g h h"
+    "f i i j";
+}
+#piece01{
+    grid-area: a;
+}
+#piece02{
+    grid-area: b;
+}
+#piece03{
+    grid-area: c;
+}
+#piece04{
+    grid-area: d;
+}
+#piece05{
+    grid-area: e;
+}
+#piece06{
+    grid-area: f;
+}
+#piece07{
+    grid-area: g;
+}
+#piece08{
+    grid-area: h;
+}
+#piece09{
+    grid-area: i;
+}
+#piece10{
+    grid-area: j;
+}

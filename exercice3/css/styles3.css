@@ -1,0 +1,28 @@
+body{
+    background-color: #3a3a3a;
+}
+.conteneur{
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "n n n"
+    "s m m"
+    "s m m"
+    "f f f";
+}
+#h{
+    grid-area: "h";
+    text-align: center;
+}
+#h1{
+    grid-area: "m";
+}
+#aside{
+    grid-area: "s";
+}
+#nav{
+    grid-area: "n";
+}
+#footer{
+    grid-area: "f";
+}

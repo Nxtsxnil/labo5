@@ -1,0 +1,29 @@
+body{
+    background-color: #111;
+}
+.cell{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: solid #fff 3px;
+}
+#conteneur0{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 20px;
+}
+#conteneur1{
+    display: grid;
+    grid-template-columns: .15fr .2fr .3fr;
+    margin: auto;
+    padding-top: 10px;
+}
+#conteneur2{
+    display: grid;
+    grid-template-columns: 300px 320px 360px;
+    grid-template-rows: 80px 20px 20px;
+    margin: auto;
+    padding-top: 15px;
+}
